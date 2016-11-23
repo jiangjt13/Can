@@ -11,6 +11,21 @@
 	<Property Name="NI.XItem.SupportsFatalErrorOut" Type="Bool">false</Property>
 	<Item Name="Method" Type="Folder"/>
 	<Item Name="Property" Type="Folder">
+		<Item Name="USR_CHOOSE_REF_2" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">USR_CHOOSE_REF_2</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_CHOOSE_REF_2</Property>
+			<Item Name="USR_CHOOSE_REF_2 Read.vi" Type="Property VI" URL="../USR_CHOOSE_REF_2 Read.vi"/>
+		</Item>
+		<Item Name="USR_CHOOSR_REF_1" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">USR_CHOOSR_REF_1</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_CHOOSR_REF_1</Property>
+			<Item Name="USR_CHOOSE_REF_1 Read.vi" Type="Property VI" URL="../USR_CHOOSE_REF_1 Read.vi"/>
+		</Item>
+		<Item Name="USR_SAVE_WAVEFORM_REF" Type="Property Folder">
+			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">USR_SAVE_WAVEFORM_REF</Property>
+			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_SAVE_WAVEFORM_REF</Property>
+			<Item Name="USR_SAVE_WAVEFORM_REF Read.vi" Type="Property VI" URL="../USR_SAVE_WAVEFORM_REF Read.vi"/>
+		</Item>
 		<Item Name="USR_TIME_FRU_REF_1" Type="Property Folder">
 			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">USR_TIME_FRU_REF_1</Property>
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_TIME_FRU_REF_1</Property>
@@ -21,18 +36,9 @@
 			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_TIME_FRU_REF_2</Property>
 			<Item Name="USR_TIME_FRU_REF_2 Read.vi" Type="Property VI" URL="../USR_TIME_FRU_REF_2 Read.vi"/>
 		</Item>
-		<Item Name="USR_CHOOSR_REF_1" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">USR_CHOOSR_REF_1</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_CHOOSR_REF_1</Property>
-			<Item Name="USR_CHOOSE_REF_1 Read.vi" Type="Property VI" URL="../USR_CHOOSE_REF_1 Read.vi"/>
-		</Item>
-		<Item Name="USR_CHOOSE_REF_2" Type="Property Folder">
-			<Property Name="NI.LibItem.Prop.Identifier" Type="Str">USR_CHOOSE_REF_2</Property>
-			<Property Name="NI.LibItem.Prop.Localized.LongName" Type="Str">USR_CHOOSE_REF_2</Property>
-			<Item Name="USR_CHOOSE_REF_2 Read.vi" Type="Property VI" URL="../USR_CHOOSE_REF_2 Read.vi"/>
-		</Item>
 	</Item>
 	<Item Name="VIs" Type="Folder">
+		<Item Name="Data2Array.vi" Type="VI" URL="../Data2Array.vi"/>
 		<Item Name="SetPosition_Choose2.vi" Type="VI" URL="../SetPosition_Choose2.vi"/>
 		<Item Name="SetSize.vi" Type="VI" URL="../SetSize.vi"/>
 	</Item>
