@@ -26,12 +26,16 @@
 			<Item Name="SetChoose2Position.vi" Type="VI" URL="../Graph/SetChoose2Position.vi"/>
 			<Item Name="SetControlSize.vi" Type="VI" URL="../Graph/SetControlSize.vi"/>
 		</Item>
-		<Item Name="about.vi" Type="VI" URL="../about.vi"/>
-		<Item Name="checkreg.vi" Type="VI" URL="../checkreg.vi"/>
-		<Item Name="Data2Array.vi" Type="VI" URL="../Data2Array.vi"/>
-		<Item Name="Menu.rtm" Type="Document" URL="../Menu.rtm"/>
+		<Item Name="Menu" Type="Folder">
+			<Item Name="Help" Type="Folder">
+				<Item Name="about.vi" Type="VI" URL="../Menu/Help/about.vi"/>
+				<Item Name="checkreg.vi" Type="VI" URL="../Menu/Help/checkreg.vi"/>
+				<Item Name="register.vi" Type="VI" URL="../Menu/Help/register.vi"/>
+			</Item>
+			<Item Name="触发" Type="Folder"/>
+			<Item Name="Menu.rtm" Type="Document" URL="../Menu/Menu.rtm"/>
+		</Item>
 		<Item Name="Program.vi" Type="VI" URL="../Program.vi"/>
-		<Item Name="register.vi" Type="VI" URL="../register.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="WorkAsCan.vi" Type="VI" URL="../WorkAsCan.vi"/>
 		<Item Name="电机参数.vi" Type="VI" URL="../电机参数.vi"/>
@@ -139,7 +143,7 @@
 				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/checkreg.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
