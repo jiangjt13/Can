@@ -22,6 +22,7 @@
 			<Item Name="VCI_Transmit.vi" Type="VI" URL="../can/VCI_Transmit.vi"/>
 		</Item>
 		<Item Name="Graph" Type="Folder">
+			<Item Name="Data2Graph.vi" Type="VI" URL="../Graph/Data2Graph.vi"/>
 			<Item Name="SetChoose2Position.vi" Type="VI" URL="../Graph/SetChoose2Position.vi"/>
 			<Item Name="SetControlSize.vi" Type="VI" URL="../Graph/SetControlSize.vi"/>
 		</Item>
@@ -31,6 +32,7 @@
 		<Item Name="Menu.rtm" Type="Document" URL="../Menu.rtm"/>
 		<Item Name="Program.vi" Type="VI" URL="../Program.vi"/>
 		<Item Name="register.vi" Type="VI" URL="../register.vi"/>
+		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="WorkAsCan.vi" Type="VI" URL="../WorkAsCan.vi"/>
 		<Item Name="电机参数.vi" Type="VI" URL="../电机参数.vi"/>
 		<Item Name="动态调用子vi.vi" Type="VI" URL="../动态调用子vi.vi"/>
@@ -59,6 +61,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Open Registry Key.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
@@ -99,7 +102,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Xgraph.xctl" Type="XControl" URL="../Xcontrol/图形选版/Xgraph.xctl"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
